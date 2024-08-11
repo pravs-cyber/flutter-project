@@ -1,0 +1,15 @@
+/*FutureBuilder(
+                future: callGenAI(enteredText),
+                builder: (context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.waiting) {
+                  return const CircularProgressIndicator(); // Or any loading indicator
+                  } else if (snapshot.hasError) {
+                    return Text('Error: ${snapshot.error}');
+                  } else if (snapshot.hasData) {
+                final response = snapshot.data as String;
+                return Text(response); // Replace with your desired UI
+                } else {
+                return const Text('Something went wrong');
+                }
+              },
+            ), */
